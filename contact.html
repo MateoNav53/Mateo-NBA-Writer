@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Mateo Navarrette Contact</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body id="contact">
+        <header>
+            <div class="row1">
+                <a href="index.html">Articles</a>
+                <a href="Bio.html">Biography</a>
+                <a class="current" href="contact.html">Contact</a>
+            </div>
+            <h1 class="row2">Mateo Navarrette, NBA Writer</h1>
+            <div class="row3">
+                <a href="https://twitter.com/MateoNav53?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false" data-button="grey">Follow Mateo</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </header>
+            <div class="contact-container">
+                <section class="column">
+                    <p>Want to work with Mateo via writing or podcasting?</p>
+                    <p>Want to just talk some hoops?</p>
+                    <p>Reach out here!</p>
+                    <p>Or, sign up for his upcoming newsletter</p>
+                    <button type="button" id="signup-button" class="newsletter-button">Sign Up</button>
+                </section>
+                <form class="column" action="https://formspree.io/mayjdpyn" method="POST">
+                    <label><input class="name" type="text" name="name" placeholder="Name" required></label>
+                    <label><input class="email" type="email" name="_replyto" placeholder="Email" required></label>
+                    <label><textarea rows="10" cols="50" name="message" placeholder="Message" required></textarea></label>
+                    <button class="submit-button" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="modal-background">
+                <div class="signup-window">
+                    <div class="close-button">+</div>
+                    <p>Get all of Mateo's latest content in your inbox by filling out the form below</p>
+                    <form>
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="text" name="_replyto" placeholder="Email" required>
+                        <button class="button" type="submit">Sign Up</button>
+                    </form>
+                </div>        
+            </div>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
