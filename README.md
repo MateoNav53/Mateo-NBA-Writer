@@ -17,6 +17,7 @@
 
 **Note**  
   - A code generator was used through Twitter's website to obtain the code needed to post the Twitter follow button at the top of every page and the embedded Twitter timeline in the Biography section  
+  - - Youtube video from RichardCodes used for inspiration for javascript functions related to modal popup window.  https://www.youtube.com/watch?v=gLWIYk0Sd38 
 
 **User Stories**  
   1. For Basktball Fans: "As a basketball fan, I want to discover new, interesting basketball content so I can hear new perspectives and increase my knowledge of the game"  
